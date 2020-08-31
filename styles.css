@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.z-neg {
+    z-index: -1 !important;
+  }
+@tailwind utilities;
