@@ -9,7 +9,10 @@
     <title>adamcarter.uk</title>
 </head>
 <body>
- 
+
+    <! Header bar>
+
+
 <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6">
 <div class="flex items-center flex-no-shink mr-6 text-white">
     <i class="material-icons px-4">star_border</i>
@@ -20,16 +23,82 @@
 
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow text-white pl-6">
-     <a href="blog.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 ">blog</a>
-     <a href="books.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 ">books</a>
-     <a href="about.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 ">about</a>
+     <a href="blog.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 lg:border-l-2 lg:border-r-2">blog</a>
+     <a href="books.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 lg:border-r-2">books</a>
+     <a href="about.html" class="block mt-4 hover:text-yellow-300 px-2 lg:inline-block lg:mt-0 lg:border-r-2">about</a>
     </div>
 
   </div>
 
 </nav>
 
- 
+<! picture and text>
+
+<div class="flex flex-wrap">
+
+    <div class="bg-local items-center w-full h-screen/2 opacity-75 flex bg-center justify-center align-middle" style="background-image: url(images/traincountry.jpg);" >
+
+    
+  
+        <div class="relative text-center p-5 bg-white bg-opacity-75 rounded-lg">
+            <a href="blog.html" class="block font-bold hover:text-blue-500 px-2 lg:inline-block">Welcome<br>This site is dedicated to continuous improvement<br>self, business,life</a>
+        </div>
+
+    </div>
+
+</div>
+
+<! 3 picture row>
+
+<div class="flex flex-col lg:flex-row justify-evenly text-center pt-4 pb-4 ">
+
+    <div>
+        <img class="h-screen/5" src="images/tracksunset.jpg" alt="sunset">
+        This is text 1
+    </div>
+    <div>
+        <img class="h-screen/5" src="images/womanstation.jpg" alt="sunset"> 
+        This is text 1
+    </div>
+    <div>
+        <img class="h-screen/5" src="images/tracksunset.jpg" alt="sunset">
+        This is text 1
+    </div>
+
+</div>
+
+<! footer>
+
+<div class="bg-black flex flex-wrap flex-col lg:flex-row">
+    <div class="text-white flex-grow p-4 pl-10">
+        <div class="font-bold">
+            Site
+        </div>
+        <div class="flex-col">
+        <a href="blog.html" class="block">blog</a>
+        <a href="books.html" class="block">books</a>
+        <a href="about.html" class="block">about</a>
+    </div>
+        
+        </div>
+        <div class="text-white flex-grow p-4">
+            <div class="font-bold">
+                Site
+            </div>
+            <form class="text-gray-500 half-width" action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+                <input name="sitesearch" type="hidden" value="adamcarter.uk">
+                <input autocomplete="on" class="form-control search" name="q" placeholder="Search site" required="required"  type="text">
+                <button class="button" type="submit">Search</button>
+                </form>
+        </div>
+            
+        
+
+</div>
+
+
+
+
 
 
 </body>
